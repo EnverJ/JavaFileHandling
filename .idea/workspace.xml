@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d6087a-bf13-4155-9241-51bc71189a8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/csvfile/csvFileReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/csvfile/csvFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/propertyfile/ReadPropertyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/propertyfile/WritePropertyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/ReadingDataUsingJackson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/csvfile/csvFileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csvfile/csvFileReading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.csvFileReading">
-    <configuration name="FileActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testfiles.FileActions" />
+  <component name="RunManager" selected="Application.ReadingDataUsingJackson">
+    <configuration name="ReadPropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="propertyfile.ReadPropertyFile" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testfiles.*" />
+          <option name="PATTERN" value="propertyfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadPropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="propertyfile.ReadPropertyFile" />
+    <configuration name="ReadingDataUsingJackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataUsingJackson" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="propertyfile.*" />
+          <option name="PATTERN" value="jsonFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingDataUsingJackson" />
         <item itemvalue="Application.csvFileReading" />
         <item itemvalue="Application.csvFileWriter" />
         <item itemvalue="Application.ReadPropertyFile" />
         <item itemvalue="Application.WritePropertyFile" />
-        <item itemvalue="Application.FileActions" />
       </list>
     </recent_temporary>
   </component>
@@ -144,5 +149,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jsonFile/PersonData.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -27,7 +27,7 @@ public class csvFileReading {
         while ((line = bufferedReader.readLine()) != null) {
             String[] data = line.split(",");
             for (String value : data) {
-                System.out.println(value+"\t");
+                System.out.print(value+"\t");
             }
             System.out.println();
 
