@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d6087a-bf13-4155-9241-51bc71189a8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/ReadingDataFromJsonUsingGsonLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/ReadingDataFromJsonUsingJsonSimpleLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +45,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingDataFromJsonUsingGsonLibrary">
-    <configuration name="ReadPropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="propertyfile.ReadPropertyFile" />
+  <component name="RunManager" selected="Application.ReadingDataFromJsonUsingJsonSimpleLibrary">
+    <configuration name="ReadingDataFromJsonUsingGsonLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataFromJsonUsingGsonLibrary" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="propertyfile.*" />
+          <option name="PATTERN" value="jsonFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingDataFromJsonUsingGsonLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataFromJsonUsingGsonLibrary" />
+    <configuration name="ReadingDataFromJsonUsingJsonSimpleLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataFromJsonUsingJsonSimpleLibrary" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingDataFromJsonUsingJsonSimpleLibrary" />
         <item itemvalue="Application.ReadingDataFromJsonUsingGsonLibrary" />
         <item itemvalue="Application.ReadingDataUsingJackson" />
         <item itemvalue="Application.csvFileReading" />
         <item itemvalue="Application.csvFileWriter" />
-        <item itemvalue="Application.ReadPropertyFile" />
       </list>
     </recent_temporary>
   </component>
