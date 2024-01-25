@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d6087a-bf13-4155-9241-51bc71189a8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/PersonSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/ReadingDataUsingJackson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonFile/ReadingDataFromJsonUsingGsonLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/csvfile/csvFileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/csvfile/csvFileReading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingDataUsingJackson">
+  <component name="RunManager" selected="Application.ReadingDataFromJsonUsingGsonLibrary">
     <configuration name="ReadPropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="propertyfile.ReadPropertyFile" />
       <module name="JavaFileHandling" />
@@ -66,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingDataUsingJackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataUsingJackson" />
+    <configuration name="ReadingDataFromJsonUsingGsonLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataFromJsonUsingGsonLibrary" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WritePropertyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="propertyfile.WritePropertyFile" />
+    <configuration name="ReadingDataUsingJackson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonFile.ReadingDataUsingJackson" />
       <module name="JavaFileHandling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="propertyfile.*" />
+          <option name="PATTERN" value="jsonFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingDataFromJsonUsingGsonLibrary" />
         <item itemvalue="Application.ReadingDataUsingJackson" />
         <item itemvalue="Application.csvFileReading" />
         <item itemvalue="Application.csvFileWriter" />
         <item itemvalue="Application.ReadPropertyFile" />
-        <item itemvalue="Application.WritePropertyFile" />
       </list>
     </recent_temporary>
   </component>
